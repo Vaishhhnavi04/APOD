@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+font-family: 'Montserrat', cursive;
+color: #756ceef8;
+line-height: 1.7;
+font-size: 19px;
+background-color: #030311;
+
+}
+
+/* navbar */
+
+.navbar {
+background-color:  #000000;
+display: flex;
+justify-content: center;
+}
+
+.link {
+color:#efefef;
+display: inline-block;
+padding: 3px 20px;
+font-size: 16px;
+text-decoration: none;
+transition: 0.3s ease all;
+}
+
+﻿
+
+.link:hover {
+color: #756ceef8;
+transform: scale(1.1);
+}
+
+/* nasa photo */
+
+.nasa-photo {
+display: block;
+padding: 20px;
+margin: 0 auto;
+max-width: 950px;
+max-height: 100%;
+}
+
+﻿.nasa-photo img { 
+/*width: 50%;
+margin-right: 50px;
+object-fit: contain;
+max-height: 80vh;*/
+width: 100%;
+max-height: 80vh;
+object-fit: contain;
+
+}
+
+
+
+.nasa-photo h1,
+.nasa-photo .date,
+.nasa-photo .explanation {
+  display: block; /* Display text elements as block elements */
+  margin-top: 10px; /* Add spacing between elements */
+}
+
+
+.nasa-photo h1 
+{
+margin-top: 0;
+margin-bottom: 0;
+font-weight: bold; 
+}
+
+.nasa-photo .date 
+{
+margin-top: 0;
+margin-bottom: 30px;
+}
+
+.nasa-photo .explanation 
+{
+color: #bbb;
+}
+
+@media (max-width: 1280px) 
+{
+.nasa-photo {
+display: block;
+
+}
+
+.nasa-photo img {
+width: 100%;
+margin-right: 0;
+margin-bottom: 30px;
+max-height: 100%;
+
+}
+} 
+
+.home 
+{
+ display: flex;
+ height: 100vh;
+ align-items: center;
+ justify-content: center;
+ background-image: url("https://wallpaperaccess.com/full/321660.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.home-link {
+font-size: 40px;
+background: #9b95eb;
+display : inline-block;
+padding: 40px 80px;
+color: #fff;
+border-radius: 5px;
+text-decoration: none;
+transition: 0.3s ease all;
+text-transform: uppercase;
+position: relative;
+}
+
+.home-link:hover {
+ background:#7a71f1;
+ box-shadow: 0 8px 20px rgba(255, 255, 255, 0.7); /* White shadow effect */
+ transform: scale(1.1);
+}
+
